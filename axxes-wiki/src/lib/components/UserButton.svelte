@@ -8,7 +8,7 @@
 
 <!-- TODO implement click event -->
 {#if loggedIn}
-    <button class="btn outline">Logout</button>
+  <button class="btn outline" on:click={login}>Logout</button>
 {:else}
-    <button class="btn outline">Login</button>
+  <button class="btn outline" on:click={login}>Login</button>
 {/if}
