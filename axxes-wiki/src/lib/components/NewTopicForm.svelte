@@ -24,7 +24,7 @@
     <!-- TODO: onclick should navigate to edit page for article -->
     <button
       class="btn primary"
-      on:click={() => console.log(value.trim())}
+      on:click={() => goto(`/edit/${value.trim()}`)}
       transition:scale={{ duration: 100 }}>Create</button
     >
   {/if}

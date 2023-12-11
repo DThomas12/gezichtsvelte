@@ -33,7 +33,7 @@
     {#each filteredTopics as topic}
       <li>
         <!-- TODO add correct anchor tags -->
-        {topic}
+        <a href={"/article/" + topic}>{topic}</a>
       </li>
     {/each}
   </ul>
